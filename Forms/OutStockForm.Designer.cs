@@ -75,14 +75,14 @@
             var lblAmount = new System.Windows.Forms.Label { Text = "金额：", Location = new System.Drawing.Point(440, 58), AutoSize = true };
             var lblReceiver = new System.Windows.Forms.Label { Text = "领用人：", Location = new System.Drawing.Point(20, 98), AutoSize = true };
             var lblOutTime = new System.Windows.Forms.Label { Text = "出库时间：", Location = new System.Drawing.Point(280, 98), AutoSize = true };
-            var lblOperator = new System.Windows.Forms.Label { Text = "操作员：", Location = new System.Drawing.Point(540, 98), AutoSize = true };
+            var lblOperator = new System.Windows.Forms.Label { Text = "操作员：", Location = new System.Drawing.Point(560, 98), AutoSize = true };
             var lblRemark = new System.Windows.Forms.Label { Text = "备注：", Location = new System.Drawing.Point(600, 18), AutoSize = true };
             
-            this.txtCode.Location = new System.Drawing.Point(100, 15);
+            this.txtCode.Location = new System.Drawing.Point(105, 15);
             this.txtCode.Size = new System.Drawing.Size(150, 23);
             this.txtCode.ReadOnly = true;
             
-            this.cmbMaterial.Location = new System.Drawing.Point(100, 55);
+            this.cmbMaterial.Location = new System.Drawing.Point(105, 55);
             this.cmbMaterial.Size = new System.Drawing.Size(150, 23);
             this.cmbMaterial.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             
@@ -102,14 +102,14 @@
             this.txtAmount.Size = new System.Drawing.Size(80, 23);
             this.txtAmount.ReadOnly = true;
             
-            this.txtReceiver.Location = new System.Drawing.Point(100, 95);
+            this.txtReceiver.Location = new System.Drawing.Point(105, 95);
             this.txtReceiver.Size = new System.Drawing.Size(150, 23);
             
-            this.dtpOutTime.Location = new System.Drawing.Point(360, 95);
+            this.dtpOutTime.Location = new System.Drawing.Point(365, 95);
             this.dtpOutTime.Size = new System.Drawing.Size(150, 23);
             this.dtpOutTime.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             
-            this.txtOperator.Location = new System.Drawing.Point(600, 95);
+            this.txtOperator.Location = new System.Drawing.Point(630, 95);
             this.txtOperator.Size = new System.Drawing.Size(100, 23);
             this.txtOperator.ReadOnly = true;
             
@@ -141,29 +141,29 @@
             var lblSearchCode = new System.Windows.Forms.Label { Text = "单号：", Location = new System.Drawing.Point(20, 16), AutoSize = true };
             var lblSearchMaterial = new System.Windows.Forms.Label { Text = "物料：", Location = new System.Drawing.Point(200, 16), AutoSize = true };
             
-            this.txtSearchCode.Location = new System.Drawing.Point(70, 13);
+            this.txtSearchCode.Location = new System.Drawing.Point(80, 13);
             this.txtSearchCode.Size = new System.Drawing.Size(100, 23);
             
-            this.txtSearchMaterial.Location = new System.Drawing.Point(250, 13);
+            this.txtSearchMaterial.Location = new System.Drawing.Point(260, 13);
             this.txtSearchMaterial.Size = new System.Drawing.Size(100, 23);
-            
-            this.chkStartDate.Location = new System.Drawing.Point(370, 15);
+
+            this.chkStartDate.Location = new System.Drawing.Point(380, 15);
             this.chkStartDate.Text = "开始：";
             this.chkStartDate.AutoSize = true;
             
-            this.dtpStartDate.Location = new System.Drawing.Point(430, 13);
+            this.dtpStartDate.Location = new System.Drawing.Point(456, 13);
             this.dtpStartDate.Size = new System.Drawing.Size(120, 23);
             this.dtpStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             
-            this.chkEndDate.Location = new System.Drawing.Point(570, 15);
+            this.chkEndDate.Location = new System.Drawing.Point(590, 15);
             this.chkEndDate.Text = "结束：";
             this.chkEndDate.AutoSize = true;
             
-            this.dtpEndDate.Location = new System.Drawing.Point(630, 13);
+            this.dtpEndDate.Location = new System.Drawing.Point(667, 13);
             this.dtpEndDate.Size = new System.Drawing.Size(120, 23);
             this.dtpEndDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             
-            this.btnSearch.Location = new System.Drawing.Point(770, 10);
+            this.btnSearch.Location = new System.Drawing.Point(820, 13);
             this.btnSearch.Size = new System.Drawing.Size(80, 30);
             this.btnSearch.Text = "查询";
             this.btnSearch.BackColor = System.Drawing.Color.FromArgb(100, 181, 246);

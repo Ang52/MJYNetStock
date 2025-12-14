@@ -61,14 +61,14 @@
             this.txtPassword.Size = new System.Drawing.Size(150, 23);
             this.txtPassword.PasswordChar = '*';
             
-            this.txtRealName.Location = new System.Drawing.Point(330, 15);
+            this.txtRealName.Location = new System.Drawing.Point(340, 15);
             this.txtRealName.Size = new System.Drawing.Size(120, 23);
             
-            this.cmbRole.Location = new System.Drawing.Point(330, 55);
+            this.cmbRole.Location = new System.Drawing.Point(340, 55);
             this.cmbRole.Size = new System.Drawing.Size(120, 23);
             this.cmbRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             
-            this.txtPhone.Location = new System.Drawing.Point(530, 15);
+            this.txtPhone.Location = new System.Drawing.Point(540, 15);
             this.txtPhone.Size = new System.Drawing.Size(150, 23);
             
             this.chkIsActive.Location = new System.Drawing.Point(530, 58);

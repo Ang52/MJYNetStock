@@ -44,17 +44,17 @@
             var lblMaterialName = new System.Windows.Forms.Label { Text = "物资名称：", Location = new System.Drawing.Point(240, 18), AutoSize = true };
             var lblWarehouse = new System.Windows.Forms.Label { Text = "仓库：", Location = new System.Drawing.Point(460, 18), AutoSize = true };
             
-            this.txtMaterialCode.Location = new System.Drawing.Point(100, 15);
+            this.txtMaterialCode.Location = new System.Drawing.Point(110, 15);
             this.txtMaterialCode.Size = new System.Drawing.Size(120, 23);
             
-            this.txtMaterialName.Location = new System.Drawing.Point(320, 15);
+            this.txtMaterialName.Location = new System.Drawing.Point(330, 15);
             this.txtMaterialName.Size = new System.Drawing.Size(120, 23);
             
-            this.cmbWarehouse.Location = new System.Drawing.Point(510, 15);
+            this.cmbWarehouse.Location = new System.Drawing.Point(520, 15);
             this.cmbWarehouse.Size = new System.Drawing.Size(120, 23);
             this.cmbWarehouse.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             
-            this.btnSearch.Location = new System.Drawing.Point(650, 13);
+            this.btnSearch.Location = new System.Drawing.Point(660, 13);
             this.btnSearch.Size = new System.Drawing.Size(80, 30);
             this.btnSearch.Text = "查询";
             this.btnSearch.BackColor = System.Drawing.Color.FromArgb(100, 181, 246);

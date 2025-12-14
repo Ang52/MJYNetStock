@@ -137,14 +137,14 @@
             // dtpInTime
             // 
             this.dtpInTime.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpInTime.Location = new System.Drawing.Point(360, 95);
+            this.dtpInTime.Location = new System.Drawing.Point(370, 95);
             this.dtpInTime.Name = "dtpInTime";
             this.dtpInTime.Size = new System.Drawing.Size(150, 23);
             this.dtpInTime.TabIndex = 7;
             // 
             // txtOperator
             // 
-            this.txtOperator.Location = new System.Drawing.Point(600, 95);
+            this.txtOperator.Location = new System.Drawing.Point(620, 95);
             this.txtOperator.Name = "txtOperator";
             this.txtOperator.ReadOnly = true;
             this.txtOperator.Size = new System.Drawing.Size(100, 23);
@@ -189,7 +189,7 @@
             // dtpStartDate
             // 
             this.dtpStartDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpStartDate.Location = new System.Drawing.Point(430, 13);
+            this.dtpStartDate.Location = new System.Drawing.Point(440, 13);
             this.dtpStartDate.Name = "dtpStartDate";
             this.dtpStartDate.Size = new System.Drawing.Size(120, 23);
             this.dtpStartDate.TabIndex = 3;
@@ -197,7 +197,7 @@
             // dtpEndDate
             // 
             this.dtpEndDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpEndDate.Location = new System.Drawing.Point(630, 13);
+            this.dtpEndDate.Location = new System.Drawing.Point(650, 13);
             this.dtpEndDate.Name = "dtpEndDate";
             this.dtpEndDate.Size = new System.Drawing.Size(120, 23);
             this.dtpEndDate.TabIndex = 5;
@@ -215,7 +215,7 @@
             // chkEndDate
             // 
             this.chkEndDate.AutoSize = true;
-            this.chkEndDate.Location = new System.Drawing.Point(570, 15);
+            this.chkEndDate.Location = new System.Drawing.Point(580, 15);
             this.chkEndDate.Name = "chkEndDate";
             this.chkEndDate.Size = new System.Drawing.Size(63, 21);
             this.chkEndDate.TabIndex = 4;
@@ -303,7 +303,7 @@
             
             var lblOperator = new System.Windows.Forms.Label();
             lblOperator.AutoSize = true;
-            lblOperator.Location = new System.Drawing.Point(540, 98);
+            lblOperator.Location = new System.Drawing.Point(560, 98);
             lblOperator.Name = "lblOperator";
             lblOperator.Size = new System.Drawing.Size(56, 17);
             lblOperator.TabIndex = 19;

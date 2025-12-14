@@ -66,21 +66,29 @@
             var lblYear = new System.Windows.Forms.Label { Text = "年份：", Location = new System.Drawing.Point(20, 16), AutoSize = true };
             var lblMonth = new System.Windows.Forms.Label { Text = "月份：", Location = new System.Drawing.Point(240, 16), AutoSize = true };
             
-            this.dtpYear.Location = new System.Drawing.Point(70, 13);
+            this.dtpYear.Location = new System.Drawing.Point(80, 13);
             this.dtpYear.Size = new System.Drawing.Size(150, 23);
             this.dtpYear.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpYear.CustomFormat = "yyyy";
             this.dtpYear.ShowUpDown = true;
             
-            this.cmbMonth.Location = new System.Drawing.Point(290, 13);
-            this.cmbMonth.Size = new System.Drawing.Size(80, 23);
+            this.cmbMonth.Location = new System.Drawing.Point(300, 13);
+            this.cmbMonth.Size = new System.Drawing.Size(100, 23);
             this.cmbMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            for (int i = 1; i <= 12; i++)
-            {
-                this.cmbMonth.Items.Add($"{i}月");
-            }
+            this.cmbMonth.Items.Add("1月");
+            this.cmbMonth.Items.Add("2月");
+            this.cmbMonth.Items.Add("3月");
+            this.cmbMonth.Items.Add("4月");
+            this.cmbMonth.Items.Add("5月");
+            this.cmbMonth.Items.Add("6月");
+            this.cmbMonth.Items.Add("7月");
+            this.cmbMonth.Items.Add("8月");
+            this.cmbMonth.Items.Add("9月");
+            this.cmbMonth.Items.Add("10月");
+            this.cmbMonth.Items.Add("11月");
+            this.cmbMonth.Items.Add("12月");
             
-            this.btnQuery.Location = new System.Drawing.Point(400, 11);
+            this.btnQuery.Location = new System.Drawing.Point(430, 11);
             this.btnQuery.Size = new System.Drawing.Size(80, 30);
             this.btnQuery.Text = "查询";
             this.btnQuery.BackColor = System.Drawing.Color.FromArgb(100, 181, 246);
@@ -88,7 +96,7 @@
             this.btnQuery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuery.Click += btnQuery_Click;
             
-            this.btnExport.Location = new System.Drawing.Point(500, 11);
+            this.btnExport.Location = new System.Drawing.Point(530, 11);
             this.btnExport.Size = new System.Drawing.Size(80, 30);
             this.btnExport.Text = "导出报表";
             this.btnExport.BackColor = System.Drawing.Color.FromArgb(76, 175, 80);
@@ -108,7 +116,7 @@
             var panelIn = new System.Windows.Forms.Panel { 
                 BackColor = System.Drawing.Color.FromArgb(76, 175, 80),
                 Location = new System.Drawing.Point(50, 10),
-                Size = new System.Drawing.Size(250, 60)
+                Size = new System.Drawing.Size(250, 100)
             };
             var lblInTitle = new System.Windows.Forms.Label { 
                 Text = "月入库总额", 
@@ -129,7 +137,7 @@
             var panelOut = new System.Windows.Forms.Panel { 
                 BackColor = System.Drawing.Color.FromArgb(255, 152, 0),
                 Location = new System.Drawing.Point(350, 10),
-                Size = new System.Drawing.Size(250, 60)
+                Size = new System.Drawing.Size(250, 100)
             };
             var lblOutTitle = new System.Windows.Forms.Label { 
                 Text = "月出库总额", 
@@ -150,7 +158,7 @@
             var panelStock = new System.Windows.Forms.Panel { 
                 BackColor = System.Drawing.Color.FromArgb(100, 181, 246),
                 Location = new System.Drawing.Point(650, 10),
-                Size = new System.Drawing.Size(250, 60)
+                Size = new System.Drawing.Size(250, 100)
             };
             var lblStockTitle = new System.Windows.Forms.Label { 
                 Text = "当前库存总额", 
